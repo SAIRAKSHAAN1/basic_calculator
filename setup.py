@@ -1,3 +1,4 @@
+
 from setuptools import setup, find_packages
 
 setup(
@@ -11,3 +12,14 @@ setup(
     license="MIT",
     install_requires=[],
 )
+
+setup(
+    name="basic_calculator",
+    version="2.0.0",
+    packages=find_packages(),
+    install_requires=[],
+    author="Your Name",
+    description="A basic calculator package with add, subtract, multiply, and divide functions",
+    url="https://github.com/SAIRAKSHAAN1/basic_calculator",
+)
+
